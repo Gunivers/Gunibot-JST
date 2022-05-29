@@ -4,6 +4,24 @@
    "owner": "728645627000389645",
    "staff": "813809612875628584",
    "restoreRoles": true,
+   "serverMinecraft": {
+      "ip": "http://192.168.64.3:8080/",
+      "max": 3,
+      "servers": [
+         {
+            "key": 1,
+            "owner": "728645627000389645",
+            "user": 2
+         }
+      ],
+      "users": [
+         {
+            "key": 2,
+            "owner": "728645627000389645",
+            "username": ""
+         }
+      ]
+   },
    "groups": {
       "parent": "947443866078961745",
       "list": [

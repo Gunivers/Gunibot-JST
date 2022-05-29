@@ -19,7 +19,7 @@ module.exports.info = {
 
 module.exports.run = async (client, interaction) => {
     client.db.get(interaction.guild.id);
-    if(!client.db[interaction.guild.id].restoreRoles) return interaction.reply({content: 'Systeme désactivé !', ephemeral: true})
+    if(!client.db[interaction.guild.id].serverMinecraft) return interaction.reply({content: 'Systeme désactivé !', ephemeral: true})
 
 
     if(!interaction.member.permissions.has(Discord.Permissions.FLAGS.BAN_MEMBERS)) return interaction.reply('Vous n\'avez pas les bonnes permissions');
